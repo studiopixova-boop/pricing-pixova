@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow-x: hidden;
+            background: black;
+        }
+
+        .image-container {
+            width: 100vw;
+            height: 100vh;
+            height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100vw;
+            height: 100vh;
+            height: 100dvh;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="1.png" alt="Image 1">
+    </div>
+    <div class="image-container">
+        <img src="2.png" alt="Image 2">
+    </div>
+</body>
+
+</html>
